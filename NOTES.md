@@ -16,9 +16,17 @@
 7. App
 
 * At least 3 Routes
+1. Route / - Home
+2. /movies - Movies
+3. /watched - Watched
+4. /add - Add a movie
 
 * JSON server
 
 * GET and POST {using controlled form}
 
 * If using V6, the route component will be different
+
+### STRETCH 
+1. Empoloy advanced hooks
+2. Allow for updating/deleting posts [movies]
