@@ -4,10 +4,13 @@ import Home from './components/Home'
 import Movies from './components/Movies';
 import Watched from './components/Watched';
 import Add from './components/Add'
+import Navbar from './components/Navbar';
 
 function App() {
   return (
+    
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/movies" element={<Movies />} />
