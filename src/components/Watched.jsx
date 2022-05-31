@@ -1,8 +1,14 @@
 import React from 'react'
+import MovieCards from './MovieCards'
 
-const Watched = () => {
+const Watched = (proops) => {
+  const watched = proops.watched
+  // console.log(watched)
+
   return (
-    <div>Watched</div>
+    <div>
+      {watched.length === 0 ? <h1>{proops.message}</h1> : watched.map((w) => <MovieCards movie={w.title} id={w.id} url={w.poster} subgenre={w.subgenre} year={w.year} director={w.director} key={w.id} isWatched={proops.isWatched}/> )}
+    </div>
   )
 }
 

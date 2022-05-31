@@ -2,42 +2,51 @@ import React, { useState } from 'react'
 import  { baseUrl, headers } from '../Globals'
 
 
-const Add = () => {
-    const [movieForm, setMovieForm] = useState({
-        title: "",
-        year: "",
-        subgenre: "",
-        poster: "",
-        director: ""
+const Add = (props) => {
+  const add = props.add
+  const [movieForm, setMovieForm] = useState({
+      title: "",
+      year: "",
+      subgenre: "",
+      poster: "",
+      director: "",
+      watched: false
+  })
+
+  function handleSetFormData(event){
+    setMovieForm({
+      ...movieForm,
+      [event.target.name]: event.target.value,
+    });
+  }
+
+  function handleSubmit(e){
+    e.preventDefault()
+    fetch(baseUrl, {
+      method: "POST", 
+      headers,
+      body: JSON.stringify(movieForm)
     })
+      .then((r) => r.json())
+      .then((data) => add(data))
+      .then(() => clearForm())
+  
+  }
 
-    function handleSetFormData(event){
-      setMovieForm({
-        ...movieForm,
-        [event.target.name]: event.target.value,
-      });
-    }
+  function clearForm(){
+    setMovieForm({
+      title: "",
+      year: "",
+      subgenre: "",
+      poster: "",
+      director: ""
+  })
+  }
 
-    function handleSubmit(e){
-      e.preventDefault()
-      fetch(baseUrl, {
-        method: "POST", 
-        headers,
-        body: JSON.stringify(movieForm)
-      })
-        .then((r) => r.json)
-        .then(() => clearForm())
-    }
-
-    function clearForm(){
-      setMovieForm({
-        title: "",
-        year: "",
-        subgenre: "",
-        poster: "",
-        director: ""
-    })
-    }
+  // function failCase(){
+  //   return 
+  //   <h1>Houston, we have a problem</h1>;
+  // }
 
   return (
     <div>
