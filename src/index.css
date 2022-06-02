@@ -15,4 +15,24 @@ code {
 
 #navbar {
   background-color: rgb(37, 2, 11);
+  color: beige;
+  width: auto;
+}
+
+#navbar ul{
+  padding: 0%;
+  list-style: none;
+
+}
+
+#navbar li{
+  display: inline;
+  width: 25%;
+}
+
+#navbar a{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
 }

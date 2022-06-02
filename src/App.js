@@ -7,6 +7,7 @@ import Watched from './components/Watched';
 import Add from './components/Add'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Header from './components/Header';
 import { baseUrl } from './Globals';
 
 function App() {
@@ -60,7 +61,8 @@ function App() {
   console.log(movieData)
 
   return (
-    
+    <div>
+      <Header />
       <Router>
         <Navbar />
         <Routes>
@@ -70,8 +72,8 @@ function App() {
           <Route path="/add" element={<Add add={handleNewFlix} />} />
         </Routes>
         <Footer />
-
      </Router>
+     </div>
   );
 }
 
