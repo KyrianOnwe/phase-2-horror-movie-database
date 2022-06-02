@@ -62,8 +62,8 @@ function App() {
 
   return (
     <div>
-        <Header />
-        <Router>
+      <Header />
+      <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -72,7 +72,7 @@ function App() {
           <Route path="/add" element={<Add add={handleNewFlix} />} />
         </Routes>
         <Footer />
-     </Router>
+      </Router>
      </div> 
   );
 }

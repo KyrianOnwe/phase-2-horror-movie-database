@@ -36,3 +36,8 @@ code {
   font-size: 18px;
   padding-right: 15px;
 }
+
+#header {
+  background-color: black;
+  color: rgba(250, 107, 25, 0.986);
+}
