@@ -4,7 +4,7 @@ import MovieCards from './MovieCards'
 const Watched = ({ message, watched, isWatched }) => {
 
   return (
-    <div>
+    <div className='movies-container'>
       {watched.length === 0 ? <h1>{message}</h1> : watched.map((w) => <MovieCards movie={w.title} id={w.id} url={w.poster} subgenre={w.subgenre} year={w.year} director={w.director} key={w.id} isWatched={isWatched}/> )}
     </div>
   )
