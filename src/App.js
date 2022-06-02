@@ -6,6 +6,7 @@ import Movies from './components/Movies';
 import Watched from './components/Watched';
 import Add from './components/Add'
 import Navbar from './components/Navbar';
+import Header from './components/Header';
 import Footer from './components/Footer';
 import { baseUrl } from './Globals';
 
@@ -60,7 +61,9 @@ function App() {
   console.log(movieData)
 
   return (
-      <Router>
+    <div>
+        <Header />
+        <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -70,6 +73,7 @@ function App() {
         </Routes>
         <Footer />
      </Router>
+     </div> 
   );
 }
 
