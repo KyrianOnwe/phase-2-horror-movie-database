@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(57, 6, 105);
+  color: azure;
 }
 
 code {
@@ -39,5 +40,5 @@ code {
 
 #header {
   background-color: black;
-  color: rgba(250, 107, 25, 0.986);
+  color: rgba(250, 152, 25, 0.986);
 }
