@@ -6,6 +6,7 @@ import Movies from './components/Movies';
 import Watched from './components/Watched';
 import Add from './components/Add'
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import { baseUrl } from './Globals';
 
 function App() {
@@ -68,6 +69,7 @@ function App() {
           <Route path="/watched" element={<Watched message={message} watched={watchedFlix} isWatched={watchedFlick}/>} />
           <Route path="/add" element={<Add add={handleNewFlix} />} />
         </Routes>
+        <Footer />
 
      </Router>
   );
