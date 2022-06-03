@@ -49,17 +49,20 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
-  background-color: rgb(180, 136, 136);
-  opacity: calc(50%);
+  background-color: rgb(247, 84, 84);
+  opacity: calc(40%);
 }
 
 .movies-container {
   width: 70%;
   margin: auto;
+  margin-bottom: 15px;
   padding-left: 2%;
   padding-right: 2%;
   background-position:center right;
   text-align: center;
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .movie-card {
@@ -71,4 +74,40 @@ footer {
   padding-bottom: 1%;
   position: relative;
   text-shadow: black;
+  opacity: calc(94%);
+}
+
+.movie-form-container {
+  background-image: url('./images/hellscape.jpg');
+  text-align: center;
+}
+
+.movie-form {
+  text-align: center;
+  margin: auto;
+  width: 65%;
+  align-content: center;
+}
+
+.movie-form input{
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+}
+
+#home-screen {
+  font-size: x-large;
+  font-weight: 200;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-image: url('./images/spookHouse.jpg');
+}
+
+#home-screen p{
+  width: 40%;
+  min-width: 40%;
+  text-align: center;
+  margin: auto;
+  padding-top: 15px;
+  position: relative;
+  padding-bottom: 15px;
 }
