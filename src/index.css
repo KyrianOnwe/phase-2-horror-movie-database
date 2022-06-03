@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image:url('./images/hellscape.jpg') ;
+  background-image:url('./images/horrorTrees.jpg') ;
   color: azure;
 }
 
@@ -45,6 +45,11 @@ code {
 
 footer {
   position: relative;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: brown;
+  fill-opacity: calc(50%);
 }
 
 .movies-container {
@@ -52,4 +57,16 @@ footer {
   margin: auto;
   padding-left: 2%;
   padding-right: 2%;
+  background-position:center right;
+  text-align: center;
+}
+
+.movie-card {
+  background-image: url('./images/grabme.jpg');
+  color: coral;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  position: relative;
 }

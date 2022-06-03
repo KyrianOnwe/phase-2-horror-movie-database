@@ -30,3 +30,7 @@
 ### STRETCH 
 1. Empoloy advanced hooks
 2. Allow for updating/deleting posts [movies]
+
+### Thanks to:
+- https://wallpaper-house.com/wallpaper-id-427296.php
+- https://wallpaper-house.com/wallpaper-id-424845.php
