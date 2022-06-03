@@ -75,6 +75,8 @@ footer {
   position: relative;
   text-shadow: black;
   opacity: calc(94%);
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .movie-form-container {
