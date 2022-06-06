@@ -34,6 +34,15 @@
       "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/The_Grudge_movie.jpg/220px-The_Grudge_movie.jpg",
       "director": "Takashi Shimizu",
       "id": 4
+    },
+    {
+      "title": "The Serpent and the Rainbow",
+      "year": "1988",
+      "subgenre": "voodoo",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Serpentandtherainbow.png/220px-Serpentandtherainbow.png",
+      "director": "Wes Craven",
+      "watched": false,
+      "id": 5
     }
   ]
 }

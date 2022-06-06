@@ -18,9 +18,12 @@ code {
 #navbar {
   background-color: rgb(37, 2, 11);
   color: beige;
-  width: auto;
+  width: 100%;
   margin: auto;
-}
+  position: fixed;
+  top: 1;
+  margin-top: 5px;
+ }
 
 #navbar ul{
   padding: 0%;
@@ -45,6 +48,12 @@ code {
 #header {
   background-color: black;
   color: rgba(250, 152, 25, 0.986);
+  position: fixed;
+  margin-top: 1px;
+  height: auto;
+  max-height: fit-content;
+  top: 0;
+  bottom: 5px;
 }
 
 footer {
@@ -66,6 +75,9 @@ footer {
   text-align: center;
   font-size: large;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 75px;
+  position: relative;
+  top: 50px;
 }
 
 .movie-card {
