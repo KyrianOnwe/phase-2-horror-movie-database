@@ -107,9 +107,11 @@ footer {
 #home-screen p{
   width: 40%;
   min-width: 40%;
+  max-height: 40%;
   text-align: center;
   margin: auto;
   padding-top: 15px;
   position: relative;
   padding-bottom: 15px;
+  font-size: 15px;
 }
