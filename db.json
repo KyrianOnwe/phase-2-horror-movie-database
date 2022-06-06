@@ -1,5 +1,39 @@
 {
   "movies": [
-    
+    {
+      "title": "Tremors",
+      "year": "1990",
+      "subgenre": "worms",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Tremors_official_theatrical_poster.jpg/220px-Tremors_official_theatrical_poster.jpg",
+      "director": "Ron Underwood",
+      "watched": true,
+      "id": 1
+    },
+    {
+      "title": "Wishmaster",
+      "year": "",
+      "subgenre": "1997",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Wishmaster.jpg/220px-Wishmaster.jpg",
+      "director": "Robert Kurtzman",
+      "watched": true,
+      "id": 2
+    },
+    {
+      "title": "Night of the Demons 3",
+      "year": "1997",
+      "subgenre": "demonic",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Night_of_the_Demons_3_poster.jpg/220px-Night_of_the_Demons_3_poster.jpg",
+      "director": "demons",
+      "watched": false,
+      "id": 3
+    },
+    {
+      "title": "The Grudge",
+      "year": "2004",
+      "subgenre": "Samira",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/The_Grudge_movie.jpg/220px-The_Grudge_movie.jpg",
+      "director": "Takashi Shimizu",
+      "id": 4
+    }
   ]
 }
