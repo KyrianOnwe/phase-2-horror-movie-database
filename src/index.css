@@ -20,9 +20,6 @@ code {
   color: beige;
   width: 100%;
   margin: auto;
-  position: fixed;
-  top: 1;
-  margin-top: 5px;
  }
 
 #navbar ul{
@@ -45,24 +42,28 @@ code {
   padding-right: 15px;
 }
 
+#navbar a:hover {
+  background: #ddd;
+  color: rgb(201, 24, 24);
+}
+
 #header {
   background-color: black;
   color: rgba(250, 152, 25, 0.986);
-  position: fixed;
   margin-top: 1px;
   height: auto;
   max-height: fit-content;
-  top: 0;
-  bottom: 5px;
 }
 
 footer {
   position: relative;
   text-align: center;
   padding: 20px;
-  margin-top: 40px;
+  margin-top: 60px;
   background-color: rgb(247, 84, 84);
   opacity: calc(40%);
+  border-top: black;
+  top: auto;
 }
 
 .movies-container {
@@ -75,9 +76,9 @@ footer {
   text-align: center;
   font-size: large;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 75px;
-  position: relative;
-  top: 50px;
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .movie-card {
@@ -96,6 +97,7 @@ footer {
 
 .movie-form-container {
   background-image: url('./images/hellscape.jpg');
+  background-size: cover;
   text-align: center;
 }
 
