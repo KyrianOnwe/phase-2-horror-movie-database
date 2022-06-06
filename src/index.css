@@ -19,11 +19,14 @@ code {
   background-color: rgb(37, 2, 11);
   color: beige;
   width: auto;
+  margin: auto;
 }
 
 #navbar ul{
   padding: 0%;
   list-style: none;
+  margin: auto;
+  padding-left: 5px;
 
 }
 
