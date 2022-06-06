@@ -43,7 +43,7 @@ code {
 }
 
 #navbar a:hover {
-  background: #ddd;
+  background: rgb(2, 53, 38);
   color: rgb(201, 24, 24);
 }
 
