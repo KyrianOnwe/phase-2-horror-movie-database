@@ -79,6 +79,7 @@ footer {
   content: "";
   display: block;
   clear: both;
+  align-content: center;
 }
 
 .movie-card {
@@ -93,6 +94,9 @@ footer {
   opacity: calc(94%);
   margin-top: 15px;
   margin-bottom: 15px;
+  min-width: 300px;
+  width: 60%;
+  align-self: center;
 }
 
 .movie-form-container {
