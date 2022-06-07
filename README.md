@@ -8,7 +8,7 @@ This app is for anyone that is passionate about movies (preferrably HORROR movie
 
 ## How to use:
 
-1.  From a terminal, fork and clone this repo from MyRepoAddress.
+1.  From a terminal, fork and clone this repo from https://github.com/KyrianOnwe/phase-2-horror-movie-database.
 2.  Make sure that Port 3001 is available
 3.  From the repo directory in the terminal, type `npm run server` [do not   include the single quotes if copying and pasting], press `ENTER` or `RETURN` on   the keyboard.
 4. Open a new terminal and navigate to the clone directory.
