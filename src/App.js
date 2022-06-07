@@ -15,9 +15,6 @@ function App() {
   const [watchedFlix, setWatchedFlix] = useState([]);
   const message = "Turn off the lights and watch a movie, already!"
 
-
-
-
   useEffect(() => {
     fetch(baseUrl)
       .then((r) => r.json())
@@ -28,8 +25,6 @@ function App() {
     setWatchedFlix(data.filter((d) => d.watched === true));
     setMovieData(data.filter((d) => d.watched === false))
   }
-
-  // movieData.filter((mv) => mv.watched === true ? setWatchedFlix([...watchedFlix, mv]) : null)
 
   function watchedFlick(id){
     const juz = movieData.find((movie) => movie.id === id);
@@ -52,19 +47,12 @@ function App() {
     
   }
 
-  // useEffect(() => <Movies movies={movieData} isWatched={watchedFlick} />, [watchedFlix])
-
-  // useEffect(() => <Watched message={message} watched={watchedFlix} />, [movieData])
-
-
-
-  console.log(movieData)
-
   return (
     <div>
-      <Header />
       <Router>
+      <div id='fixed-container'><Header />
         <Navbar />
+        </div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/movies" element={<Movies movies={movieData} isWatched={watchedFlick} />} />

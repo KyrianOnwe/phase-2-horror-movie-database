@@ -43,11 +43,6 @@ const Add = (props) => {
   })
   }
 
-  // function failCase(){
-  //   return 
-  //   <h1>Houston, we have a problem</h1>;
-  // }
-
   return (
     <div className='movie-form-container'>
         <h1>What should we watch next?</h1>
