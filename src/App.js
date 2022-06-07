@@ -48,20 +48,18 @@ function App() {
   }
 
   return (
-    <div>
-      <Router>
-      <div id='fixed-container'><Header />
-        <Navbar />
-        </div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/movies" element={<Movies movies={movieData} isWatched={watchedFlick} />} />
-          <Route path="/watched" element={<Watched message={message} watched={watchedFlix} isWatched={watchedFlick}/>} />
-          <Route path="/add" element={<Add add={handleNewFlix} />} />
-        </Routes>
-        <Footer />
-      </Router>
-     </div> 
+    <Router>
+    <div id='fixed-container'><Header />
+      <Navbar />
+      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/movies" element={<Movies movies={movieData} isWatched={watchedFlick} />} />
+        <Route path="/watched" element={<Watched message={message} watched={watchedFlix} isWatched={watchedFlick}/>} />
+        <Route path="/add" element={<Add add={handleNewFlix} />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
