@@ -41,8 +41,17 @@
       "subgenre": "voodoo",
       "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Serpentandtherainbow.png/220px-Serpentandtherainbow.png",
       "director": "Wes Craven",
-      "watched": false,
+      "watched": true,
       "id": 5
+    },
+    {
+      "title": "UNDERGROUND",
+      "year": "2011",
+      "subgenre": "rave",
+      "poster": "https://horrorcultfilms.b-cdn.net/wp-content/uploads/2012/09/underground.jpg",
+      "director": "Rafael Eisenman",
+      "watched": true,
+      "id": 6
     }
   ]
 }

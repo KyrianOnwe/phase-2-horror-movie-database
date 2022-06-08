@@ -18,3 +18,8 @@ This app is for anyone that is passionate about movies (preferrably HORROR movie
 1.  Add movie info via the "Add a New Flick" link.  Be sure to add a jpg file url to the 'poster' input, for ease of access in the "Movies" and "Watched Movies" pages.
 2.  After adding your information and clicking 'Submit', the movie details appears in the "Movies" page.  Once movie details are added to database, they can not be easily removed so be considerate to your future, traumatized self.
 3.  Once movie details are available in the "Movies" page, clicking (or tapping) will move the data to the "Watched Movies" page.  Once a film is added to the database, it can not be easily removed. 
+
+## References:
+- https://wallpaper-house.com/wallpaper-id-427296.php
+- https://wallpaper-house.com/wallpaper-id-424845.php
+- https://wallhere.com/en/wallpaper/1949771
