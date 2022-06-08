@@ -28,3 +28,4 @@ This app is for anyone that is passionate about movies (preferrably HORROR movie
 - https://wallpaper-house.com/wallpaper-id-427296.php
 - https://wallpaper-house.com/wallpaper-id-424845.php
 - https://wallhere.com/en/wallpaper/1949771
+- https://wikipedia.com
