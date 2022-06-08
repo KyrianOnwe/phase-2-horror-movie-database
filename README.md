@@ -32,5 +32,5 @@ This app is for anyone that is passionate about movies (preferrably HORROR movie
 
 
 ## License & Copyright:
- Copyright 2022 Kyrian Onwe, Flatiron School
+ Copyright 2022 Kyrian Onwe, Flatiron School.
  Licensed under the [MIT LICENSE](LICENSE).
