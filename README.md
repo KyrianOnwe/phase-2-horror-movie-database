@@ -29,3 +29,8 @@ This app is for anyone that is passionate about movies (preferrably HORROR movie
 - https://wallpaper-house.com/wallpaper-id-424845.php
 - https://wallhere.com/en/wallpaper/1949771
 - https://wikipedia.com
+
+
+## License & Copyright:
+ Copyright 2022 Kyrian Onwe, Flatiron School
+ Licensed under the [MIT LICENSE](LICENSE).
