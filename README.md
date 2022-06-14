@@ -24,6 +24,9 @@ This app is for anyone that is passionate about movies (preferrably HORROR movie
 ![Image](./src/images/watched.gif)
 3.  Once movie details are available in the "Movies" page, clicking (or tapping) will move the data to the "Watched Movies" page.  Once a film is added to the database, it can not be easily removed. 
 
+## Troubleshooting
+Upon running `npm start`, some users have encountered [].  To resolve this issue, please navigate to the app directory in your terminal and run `npm i react-scripts`.  Allow the code to finish, then run `npm start` again.  
+
 ## References:
 - https://wallpaper-house.com/wallpaper-id-427296.php
 - https://wallpaper-house.com/wallpaper-id-424845.php
