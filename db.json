@@ -1,22 +1,5 @@
 {
   "movies": [
-    {
-      "title": "Lily C.A.T.",
-      "year": "1987",
-      "subgenre": "anime",
-      "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Lily_C.A.T._poster.jpg/220px-Lily_C.A.T._poster.jpg",
-      "director": "Hisayuki Toriumi",
-      "watched": false,
-      "id": 1
-    },
-    {
-      "title": "UNDERGROUND",
-      "year": "2011",
-      "subgenre": "rave",
-      "poster": "https://horrorcultfilms.b-cdn.net/wp-content/uploads/2012/09/underground.jpg",
-      "director": "Rafael Eisenman",
-      "watched": false,
-      "id": 2
-    }
+
   ]
 }
