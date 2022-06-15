@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
-import  { baseUrl, headers } from '../Globals'
+import React, { useState } from 'react';
+import  { baseUrl, headers } from '../Globals';
+import { useNavigate } from 'react-router-dom';
 
 
 const Add = (props) => {
@@ -12,6 +13,8 @@ const Add = (props) => {
       director: "",
       watched: false
   })
+
+  const hist = useNavigate();
 
   function handleSetFormData(event){
     setMovieForm({
@@ -29,7 +32,8 @@ const Add = (props) => {
     })
       .then((r) => r.json())
       .then((data) => add(data))
-      .then(() => clearForm())
+      .then(() => {clearForm();
+                  hist("/movies")})
   
   }
 
