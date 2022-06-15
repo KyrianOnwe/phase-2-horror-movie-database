@@ -14,7 +14,7 @@ This app is for anyone that is passionate about movies (preferrably HORROR movie
 ![Image](./src/images/npmRunServer_AdobeExpress.gif)
 4. Open a new terminal and navigate to the clone directory.
 5. From the new terminal, type `npm start`, press `ENTER` or `RETURN` and proceed to the app.
-![Image](./src/images/npmStart_AdobeExpress.gif)
+![Image](./src/images/npmStart_AdobeExpress.gif) {*** If you encounter an error at this step, please see Troubleshooting ***}
 6. Enjoy the horror!
 
 ## In the app:
